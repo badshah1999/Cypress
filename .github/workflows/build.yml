@@ -14,7 +14,8 @@ jobs:
           command: npm run test:LoginTest
 
       - name: Uploading Report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
             name: Test Automation Report
-            path: /cypress/reports/html
+            path: cypress/reports/html
