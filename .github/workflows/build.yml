@@ -10,7 +10,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          command: npm run --headed --browser  chrome
+          command: npm run --browser chrome --headed
 
       - name: Uploading Report
         if: always()
