@@ -1,4 +1,4 @@
-import Login from "../pages/login"
+import Login from "../pages/Login"
 describe('Login', () => {
     let data;
     before(()=>{
