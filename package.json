@@ -4,12 +4,13 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test:LoginTest":"npx cypress run --spec cypress/e2e/login.cy.js",
+    "test:LoginTest": "npx cypress run --spec cypress/e2e/login.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.11.0"
+    "cypress": "^13.11.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }
